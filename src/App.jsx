@@ -1,9 +1,9 @@
 import { useState } from 'react';
-
-function App() {
+import './App.css'
+const App =()=> {
   return (
     <div>
-      <h1>To Do App</h1>
+      <h1 className="text-3xl font-bold text-blue-500">To Do App</h1>
     </div>
   );
 }
