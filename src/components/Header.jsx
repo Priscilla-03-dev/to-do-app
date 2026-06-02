@@ -6,7 +6,7 @@ const Header = () => {
     <div>
       <header className='border-b border-slate-950 mb-4'>
           <nav className='max-w-[60%] m-auto'>
-          <ul className='flex justify-around text-gray02 [&>li]:py-2 [&>li]:w-full [&>li]:cursor-pointer'>
+          <ul className='flex justify-around text-gray-600 [&>li]:py-2 [&>li]:w-full [&>li]:cursor-pointer'>
             <li className={navLink}>Day</li>
             <li>Week</li>
             <li>Month</li>

@@ -2,7 +2,9 @@ import React from 'react'
 
 const ListTasks = () => {
   return (
-    <div>ListTasks</div>
+    <section className='max-w-[450px] m-auto pb-7 pt-1 px-4'>
+
+    </section>
   )
 }
 
