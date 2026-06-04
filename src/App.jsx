@@ -11,10 +11,10 @@ const App=()=> {
   /*const[count,setCount]=useState(0)*/
   return (
     <main>
-      <h1 className="text-3xl font-bold text-blue-500">To Do App</h1>
+      <h1 className="text-3xl font-bold text-blue-500">To Do App</h1> 
       <div className='Todo-container'>
         <Header/>
-        <Day/>
+        <Day/> 
         <Form/>
         <ListTasks/>
       </div>

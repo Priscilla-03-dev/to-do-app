@@ -4,7 +4,7 @@ const ArrowRight = () => {
   return (
       <svg
           xmlns="http://www.w3.org/2000/svg"
-          fill="#d260bd"
+          fill="#EC407A"
           viewBox="0 0 32 32"
           width="40"
           height="40">
