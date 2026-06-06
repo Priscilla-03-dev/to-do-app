@@ -7,7 +7,7 @@ const Day = () => {
       <p className='cursor-pointer'>
         <ArrowLeft/>
       </p>
-      <div className="w-[155px]">
+      <div className="w-[60%]">
         <h4 className="text-4xl font-medium">Thursday</h4>
         <p className="text-gray-500">June 6, 2026</p>
       </div>

@@ -4,19 +4,30 @@ import Header from './components/Header';
 import Day from './components/Day';
 import Form from './components/Form';
 import ListTasks from './components/ListTasks';
+import Week from './components/Week';
+import Month from './components/Month';
+import Year from './components/Year';
 
 import './App.css';
 
-const App=()=> {
-  /*const[count,setCount]=useState(0)*/
+const App = () => {
+  const [tab, setTab] = useState('day'); // component state to manage the active tab
   return (
     <main>
-      <h1 className="text-3xl font-bold text-blue-500">To Do App</h1> 
+      <h1 className="text-3xl font-bold text-blue-500">To Do App</h1>
       <div className='Todo-container'>
-        <Header/>
-        <Day/> 
-        <Form/>
-        <ListTasks/>
+        <Header tab={tab} setTab={setTab}/>
+        {
+          tab === 'day' && <>
+            <Day/>
+            <Form/>
+            <ListTasks/>
+          </>
+        }
+        {tab === 'week' && <Week/>}
+        {tab === 'month' && <Month/>}
+        {tab === 'year' && <Year/>}
+
       </div>
 
     </main>
