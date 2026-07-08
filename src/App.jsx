@@ -16,7 +16,7 @@ const App = () => {
     <main>
       <h1 className="text-3xl font-bold text-blue-500">To Do App</h1>
       <div className='Todo-container'>
-        <Header tab={tab} setTab={setTab}/>
+        <Header tab={tab} setTab={setTab}/> {/* passing the state and the state updater function as props to the Header component */}
         {
           tab === 'day' && <>
             <Day/>
